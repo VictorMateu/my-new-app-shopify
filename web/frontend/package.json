@@ -5,8 +5,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "coverage": "vitest run --coverage",
-    "start": "node index.js"
+    "coverage": "vitest run --coverage"
   },
   "type": "module",
   "engines": {

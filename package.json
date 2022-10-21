@@ -10,7 +10,7 @@
     "info": "shopify app info",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
-    "start": "node index.js"
+    "start": "npm run dev"
   },
   "dependencies": {
     "@shopify/app": "3.18.0",

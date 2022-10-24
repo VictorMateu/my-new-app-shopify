@@ -175,7 +175,7 @@ export async function createServer(
   app.use("/*", async (req, res, next) => {
     if (typeof req.query.shop !== "string") {
       res.status(500);
-      return res.send("No shop provided");
+      return res.send("No shop provided" + typeof req.query.shop);
     }
 
     const shop = Shopify.Utils.sanitizeShop(req.query.shop);

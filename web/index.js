@@ -1,5 +1,5 @@
 // @ts-check
-import 'dotenv/config';   // posible error?
+//import 'dotenv/config';   // posible error?
 import { join } from "path";
 import { readFileSync } from "fs";
 import express from "express";

@@ -10,9 +10,7 @@
     "info": "shopify app info",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
-    "start": "node web/index.js",
-    "install-client": "cd frontend && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build"
+    "start": "node web/index.js"
   },
   "dependencies": {
     "@shopify/app": "3.18.0",

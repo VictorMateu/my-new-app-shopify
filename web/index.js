@@ -37,7 +37,7 @@ QRCodesDB.init();
 Shopify.Context.initialize({
   API_KEY: process.env.SHOPIFY_API_KEY,
   API_SECRET_KEY: process.env.SHOPIFY_API_SECRET,
-  SCOPES: process.env.SCOPES.split(","),
+  SCOPES: process.env.SCOPES.split(","), /* write_products,read_discounts -> no encuentra esto, creo que esta en shopify.app.toml*/
   HOST_NAME: process.env.HOST.replace(/https?:\/\//, ""),
   HOST_SCHEME: process.env.HOST.split("://")[0],
   API_VERSION: LATEST_API_VERSION,
